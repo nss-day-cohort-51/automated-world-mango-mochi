@@ -5,12 +5,12 @@ import { ivyCity, ivyLndMrk } from "./ivformat.js";
 
 export const ivListCities = () => {
     
-    const contentElement = document.querySelector(".cities");
-    const arrayOfcities = getIvoryCity();
+    const contentElement = document.querySelector(".ivCities");
+    const arrayOfCities = getIvoryCity();
 
 	let countryHTMLRepresentation = "";
 
-	for (const onecityObject of arrayOfcities) {
+	for (const onecityObject of arrayOfCities) {
         
 		countryHTMLRepresentation += ivyCity(onecityObject);
 	}	
