@@ -1,37 +1,42 @@
-export const city = (cityObj) => {
+export const ivyCity = (ivyCityObj) => {
 	return ` 
-
-    <h3 class="city-name">${cityObj.cities}</h3>
+    <article>
+    <h3 class="city-name">${ivyCityObj.cities}</h3>
     <ul>
-        <li class="city-details">Poulation: ${cityObj.population} inches</li>
-        <li class="city-details">Fact: ${cityObj.fact}</li>
-        <li class="city-details">Learn More: ${cityObj.link}</li>
+        <li class="city-details">Poulation: ${ivyCityObj.population} </li>
+        <li class="city-details">Fact: ${ivyCityObj.fact}</li>
+        <li class="city-details">Learn More: ${ivyCityObj.link}</li>
     </ul>
+    </article>
+    
     `
 }
 
-export const lndMrk = (lndMrkObj) => {
+export const ivyLndMrk = (ivLndMrkObj) => {
     return `
-    
-    <h3 class="city-name">${lndMrkObj.name}</h3>
+    <article>
+    <h3 class="city-name">${ivLndMrkObj.name}</h3>
     <ul>
-        <li class="landmark-details">Built: ${lndMrkObj.built} inches</li>
-        <li class="landmark-details">Fact: ${lndMrkObj.fact}</li>
-        <li class="landmark-details">Learn More: ${lndMrkObj.link}</li>
+        <li class="landmark-details">Built: ${ivLndMrkObj.built} inches</li>
+        <li class="landmark-details">Fact: ${ivLndMrkObj.fact}</li>
+        <li class="landmark-details">Learn More: ${ivLndMrkObj.link}</li>
     </ul>
-
+    </article>
+   
     `
 }
 
-export const people = (peopleObj) => {
+export const ivyPeople = (ivPeopleObj) => {
     return `
-    
-    <h3 class="name">${peopleObj.people}</h3>
+    <article>
+    <h3 class="name">${ivPeopleObj.people}</h3>
     <ul>
-        <li class="people-details">Occupation: ${peopleObj.occupation} inches</li>
-        <li class="people-details">Fact: ${peopleObj.fact}</li>
-        <li class="people-details">Learn More: ${peopleObj.link}</li>
+        <li class="people-details">Occupation: ${ivPeopleObj.occupation} inches</li>
+        <li class="people-details">Fact: ${ivPeopleObj.fact}</li>
+        <li class="people-details">Learn More: ${ivPeopleObj.link}</li>
     </ul>
+    </article>
+    
 
     `
 }

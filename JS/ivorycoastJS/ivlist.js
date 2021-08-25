@@ -1,9 +1,9 @@
 import { getIvoryCity } from "./ivdata.js";
 import { getIvoryPeople } from "./ivdata.js";
 import { getIvoryLndMrks } from "./ivdata.js";
-import { city } from "./ivformat.js";
+import { ivyCity, ivyLndMrk } from "./ivformat.js";
 
-export const ivList = () => {
+export const ivListCities = () => {
     
     const contentElement = document.querySelector(".cities");
     const arrayOfcities = getIvoryCity();
@@ -12,7 +12,21 @@ export const ivList = () => {
 
 	for (const onecityObject of arrayOfcities) {
         
-		countryHTMLRepresentation += city(onecityObject);
+		countryHTMLRepresentation += ivyCity(onecityObject);
+	}	
+    contentElement.innerHTML += countryHTMLRepresentation
+}
+
+export const ivListLndMrks = () => {
+    
+    const contentElement = document.querySelector(".landmarks");
+    const arrayOfLndMrk = getIvoryLndMrks();
+
+	let countryHTMLRepresentation = "";
+
+	for (const onelndMrkObject of arrayOfLndMrk) {
+        
+		countryHTMLRepresentation += ivyLndMrk(onelndMrkObject);
 	}	
     contentElement.innerHTML += countryHTMLRepresentation
 }
