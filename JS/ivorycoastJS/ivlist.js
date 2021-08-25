@@ -1,7 +1,7 @@
 import { getIvoryCity } from "./ivdata.js";
 import { getIvoryPeople } from "./ivdata.js";
 import { getIvoryLndMrks } from "./ivdata.js";
-import { ivyCity, ivyLndMrk } from "./ivformat.js";
+import { ivyCity, ivyLndMrk, ivyPeople } from "./ivformat.js";
 
 export const ivListCities = () => {
     
@@ -31,4 +31,17 @@ export const ivListLndMrks = () => {
     contentElement.innerHTML += countryHTMLRepresentation
 }
 
+export const ivListpeople = () => {
+    
+    const contentElement = document.querySelector(".people");
+    const arrayOfPeople = getIvoryPeople();
+
+	let countryHTMLRepresentation = "";
+
+	for (const onePeopleObject of arrayOfPeople) {
+        
+		countryHTMLRepresentation += ivyPeople(onePeopleObject);
+	}	
+    contentElement.innerHTML += countryHTMLRepresentation
+}
 // add 2 more exports
