@@ -40,21 +40,21 @@ const egyptPeeps = [
     {
         people: "Hoda Kotb",
         occupation: "Journalist",
-        discription: "Co Host of the NBC Morning Show",
+        description: "Co Host of the NBC Morning Show",
         link: "https://en.wikipedia.org/wiki/Hoda_Kotb"
         
     },
     {
         people: "Mohamed Salah",
         occupation: "Football Player",
-        discription: "Considered one of the best football players in the world",
+        description: "Considered one of the best football players in the world",
         link: "https://en.wikipedia.org/wiki/Mohamed_Salah"
         
     },
     {
         people: "Rami Malek",
         occupation: "Actor",
-        discription: "Won a Critics Choice Award and the Primetime Emmy award",
+        description: "Won a Critics Choice Award and the Primetime Emmy award",
         link: "https://en.wikipedia.org/wiki/Rami_Malek"
         
     }

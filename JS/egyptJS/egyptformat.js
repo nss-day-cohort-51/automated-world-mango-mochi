@@ -30,7 +30,7 @@ export const egPeople = (peopleObj) => {
     <h3 class="name">${peopleObj.people}</h3>
     <ul>
         <li class="people-details">Occupation: ${peopleObj.occupation}</li>
-        <li class="people-details">Fact: ${peopleObj.fact}</li>
+        <li class="people-details">Description: ${peopleObj.description}</li>
         <li class="people-details"><a href = ${peopleObj.link}>Learn More</a></li>
     </ul>
     </article>
