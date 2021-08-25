@@ -1,4 +1,4 @@
-export const city = (cityObj) => {
+export const City = (cityObj) => {
 	return ` 
 
     <h3 class="city-name">${cityObj.cities}</h3>
