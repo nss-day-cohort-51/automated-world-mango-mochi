@@ -57,11 +57,11 @@ const kenyaPeeps = [
     }
 ]
 
-export const getKenyaLndMrks = () => {
-    return kenyaLndMrks
+export const getKenyaLndMrk = () => {
+    return kenyaLndMrk
 }
 
-const kenyaLndMrks = [ 
+const kenyaLndMrk = [ 
     {
         name: "Fort Jesus",
         built: "15-1600’s",

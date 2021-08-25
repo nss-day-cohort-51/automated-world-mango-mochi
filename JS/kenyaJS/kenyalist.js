@@ -1,24 +1,26 @@
 import { getKenyaCity } from "./kenyadata.js";
 import { getKenyaPeople } from "./kenyadata.js";
-import { getKenyaLndMrks } from "./kenyadata.js";
-import { city, people } from "./kenyaformat.js";
+import { getKenyaLndMrk } from "./kenyadata.js";
+import { City } from "./kenyaformat.js";
+import { people } from "./kenyaformat.js";
+import { lndMrk } from "./kenyaformat.js";
 
-export const kenyaList = () => {
+export const kenyaCityList = () => {
     
-    const contentElement = document.querySelector(".cities");
-    const arrayOfcities = getKenyaCity();
+    const contentElement = document.querySelector(".kenyacities");
+    const arrayOfCities = getKenyaCity();
 
 	let countryHTMLRepresentation = "";
 
-	for (const onecityObject of arrayOfcities) {
+	for (const oneCityObject of arrayOfCities) {
         
-		countryHTMLRepresentation += city(onecityObject);
+		countryHTMLRepresentation += City(oneCityObject);
 	}	
     contentElement.innerHTML += countryHTMLRepresentation
 }
-export const kenyaList = () => {
+export const kenyaPeopleList = () => {
     
-    const contentElement = document.querySelector(".cities");
+    const contentElement = document.querySelector(".kenyapeople");
     const arrayOfPeople = getKenyaPeople();
 
 	let countryHTMLRepresentation = "";
@@ -29,16 +31,16 @@ export const kenyaList = () => {
 	}	
     contentElement.innerHTML += countryHTMLRepresentation
 }
-export const kenyaList = () => {
+export const kenyaLandmarkList = () => {
     
-    const contentElement = document.querySelector(".cities");
-    const arrayOfLndMrks = getKenyaLndMrks();
+    const contentElement = document.querySelector(".kenyalandmarks");
+    const arrayOfLndMrk = getKenyaLndMrk();
 
 	let countryHTMLRepresentation = "";
 
-	for (const oneLndMrksObject of arrayOfLndMrks) {
+	for (const oneLndMrkObject of arrayOfLndMrk) {
         
-		countryHTMLRepresentation += LndMrks(oneLndMrksObject);
+		countryHTMLRepresentation += lndMrk(oneLndMrkObject);
 	}	
     contentElement.innerHTML += countryHTMLRepresentation
 }
