@@ -1,32 +1,38 @@
-export const city = (cityObj) => {
+export const saCity = (saCityObj) => {
     return `
-    <h3 class="city-name">${cityObj.cities}</h3>
+    <article>
+    <h3 class="city-name">${saCityObj.cities}</h3>
     <ul>
-    <li class="city-details">Population: ${cityObj.population} inches</li>
-    <li class="city-details">Fact: ${cityObj.fact}</li>
-    <li class="city-details">Learn More: ${cityObj.link}</li>
+    <li class="city-details">Population: ${saCityObj.population}</li>
+    <li class="city-details">Fact: ${saCityObj.fact}</li>
+    <li class="city-details">Learn More: ${saCityObj.link}</li>
     </ul>
+    </article>
     `
 }
 
-export const lndMrk = (lnbdMrkObj) => {
+export const saLndMrk = (salndMrkObj) => {
     return `
-    <h3 class="city-name">${lndMrkObj.name}</h3>
+    <article>
+    <h3 class="city-name">${salndMrkObj.name}</h3>
     <ul>
-    <li class="landmark-details">Built: ${lndMrkObj.built} inches</li>
-    <li class="landmark-details">Fact: ${lndMrkObj.fact}</li>
-    <li class="landmark-details">Learn More: ${lndMrkObj.link}</li>
+    <li class="landmark-details">Built: ${salndMrkObj.built}</li>
+    <li class="landmark-details">Fact: ${salndMrkObj.fact}</li>
+    <li class="landmark-details">Learn More: ${salndMrkObj.link}</li>
     </ul>
+    </article>
     `
 }
 
-export const people = (peopleObj) => {
+export const saPeople = (saPeopleObj) => {
     return `
-    <h3 class="city-name">${peopleObj.people}</h3>
+    <artilce>
+    <h3 class="city-name">${saPeopleObj.people}</h3>
     <ul>
-    <li class="people-details">Occupation: ${peopleObj.occupation} inches</li>
-    <li class="people-details">Discription: ${peopleObj.discription}</li>
-    <li class="people-details">Learn More: ${cityObj.link}</li>
+    <li class="people-details">Occupation: ${saPeopleObj.occupation}</li>
+    <li class="people-details">Discription: ${saPeopleObj.discription}</li>
+    <li class="people-details">Learn More: ${saPeopleObj.link}</li>
     </ul>
+    </article>
     `
 }
