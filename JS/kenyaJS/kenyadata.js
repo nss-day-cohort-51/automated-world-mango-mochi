@@ -37,21 +37,21 @@ const kenyaPeeps = [
     {
         people: "Eliud Kipchoge",
         occupation: "long-distance runner",
-        discription: "2016 and 2020 olympic marathon winner",
+        description: "2016 and 2020 olympic marathon winner",
         link: "https://en.wikipedia.org/wiki/Eliud_Kipchoge"
 
     },
     {
         people: "Jomo Kenyatta",
         occupation: "Former prime minister of Kenya",
-        discription: "played a defining roll of challenging white supremacy",
+        description: "played a defining roll of challenging white supremacy",
         link: "https://www.thefamouspeople.com/profiles/jomo-kenyatta-9185.php"
 
     },
     {
         people: "Lupita Nyong’o",
         occupation: "Actress",
-        discription: "one of the most famous African/African-American actresses and won an academy award",
+        description: "one of the most famous African/African-American actresses and won an academy award",
         link: "https://www.thefamouspeople.com/profiles/lupita-nyongo-45552.php"
 
     }
