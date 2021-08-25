@@ -29,8 +29,9 @@ export const people = (peopleObj) => {
     <h3 class="name">${peopleObj.people}</h3>
     <ul>
         <li class="people-details">Occupation: ${peopleObj.occupation} inches</li>
-        <li class="people-details">Fact: ${peopleObj.fact}</li>
+        <li class="people-details">Description: ${peopleObj.description}</li>
         <li class="people-details">Learn More: ${peopleObj.link}</li>
+       
     </ul>
 
     `
