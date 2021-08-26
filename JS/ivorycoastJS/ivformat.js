@@ -1,6 +1,6 @@
 export const ivyCity = (ivyCityObj) => {
 	return ` 
-    <article>
+    <article class= "border" >
     <h3 class="city-name">${ivyCityObj.cities}</h3>
     <ul>
         <li class="city-details">Poulation: ${ivyCityObj.population} </li>
@@ -14,7 +14,7 @@ export const ivyCity = (ivyCityObj) => {
 
 export const ivyLndMrk = (ivLndMrkObj) => {
     return `
-    <article>
+    <article class= "border" >
     <h3 class="city-name">${ivLndMrkObj.name}</h3>
     <ul>
         <li class="landmark-details">Built: ${ivLndMrkObj.built} </li>
@@ -28,7 +28,7 @@ export const ivyLndMrk = (ivLndMrkObj) => {
 
 export const ivyPeople = (ivPeopleObj) => {
     return `
-    <article>
+    <article class= "border" >
     <h3 class="name">${ivPeopleObj.people}</h3>
     <ul>
         <li class="people-details">Occupation: ${ivPeopleObj.occupation} </li>
