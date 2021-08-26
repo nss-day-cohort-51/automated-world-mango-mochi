@@ -1,6 +1,6 @@
 export const egCity = (cityObj) => {
 	return ` 
-    <article>
+    <article class="border">
     <h3 class="city-name">${cityObj.cities}</h3>
     <ul>
         <li class="city-details">Poulation: ${cityObj.population}</li>
@@ -13,7 +13,7 @@ export const egCity = (cityObj) => {
 
 export const egLndMrk = (lndMrkObj) => {
     return `
-    <article>
+    <article class="border">
     <h3 class="city-name">${lndMrkObj.name}</h3>
     <ul>
         <li class="landmark-details">Built: ${lndMrkObj.built}</li>
@@ -26,7 +26,7 @@ export const egLndMrk = (lndMrkObj) => {
 
 export const egPeople = (peopleObj) => {
     return `
-    <article>
+    <article class="border">
     <h3 class="name">${peopleObj.people}</h3>
     <ul>
         <li class="people-details">Occupation: ${peopleObj.occupation}</li>
