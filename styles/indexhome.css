@@ -1,0 +1,87 @@
+.logo {
+
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: -20px;
+
+}
+.header-image {
+    display: flex;
+    align-self: center;
+    padding-top: 25px;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #47c2b1;
+    padding-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+body {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #47c2b1;
+    font-weight: bolder;
+    color: white;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    
+}
+h1 {
+    font-size: 60px;
+}
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 25px;
+}
+.indexfooter {
+    padding-top: 50px;
+}
+.index-body {
+    background-color: #47c2b1;
+}
+
+.index-title {
+    
+    display: flex;
+    display:block;
+    border: 1px solid #000;
+    text-align: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 90%;
+    background: #ff8576;
+  
+    
+}
+.africa-logo {
+    width: 25px;
+    height: 25px;
+}
+.index-header {
+    padding-top: 25px;
+}

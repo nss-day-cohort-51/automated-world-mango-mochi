@@ -1,11 +1,9 @@
 .logo {
-
     height: 300px;
     width: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 .header-image {
     display: flex;
@@ -28,34 +26,33 @@ padding-bottom: 3%;
     justify-content: space-around;
 
 }
+.cards-iv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
 
 .header {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: #47c2b1;
+    background-color: #47C2B1;
     padding-bottom: 50px;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Raleway', sans-serif;
-    
 }
-
 .nav-buttons{
     background-size: auto;
-    
     border-radius: 3px;
     text-decoration: none;
     font-size: 20px;
-    color: #f0f5f9;
+    color: #F0F5F9;
     background-size: 50%;
-    
-    
 }
-
 .nav :hover{
-    
     box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-	transform: translateY(-0.25em);
+    transform: translateY(-0.25em);
     color: #000000;
 }
 
@@ -71,25 +68,20 @@ color: #001b36;
     display: flex;
     justify-content: space-evenly;
 }
-
 .country-images{
-
     height: 400px;
     width: 100%;
-
 }
-
 .footer {
     display: flex;
     justify-content: center;
-    background-color: #47c2b1;
+    background-color: #47C2B1;
     font-weight: bolder;
     color: white;
 }
 .title {
     display: flex;
     justify-content: center;
-    
 }
 h1 {
     font-size: 60px;
@@ -100,6 +92,7 @@ h2 {
 h3 {
     font-size: 25px;
 }
+
 .border {
     border-style: solid;
     border-width:  medium;

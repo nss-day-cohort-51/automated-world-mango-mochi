@@ -18,7 +18,7 @@ export const saLndMrk = (salndMrkObj) => {
     <ul>
     <li class="landmark-details">Built: ${salndMrkObj.built}</li>
     <li class="landmark-details">Fact: ${salndMrkObj.fact}</li>
-    <li class="landmark-details"><a href = ${salndMrkObj.link}</a></li>
+    <li class="landmark-details"><a href = ${salndMrkObj.link}>Learn More</a></li>
     </ul>
     </article>
     `
@@ -31,7 +31,7 @@ export const saPeople = (saPeopleObj) => {
     <ul>
     <li class="people-details">Occupation: ${saPeopleObj.occupation}</li>
     <li class="people-details">Discription: ${saPeopleObj.discription}</li>
-    <li class="people-details"><a href ${saPeopleObj.link}</a></li>
+    <li class="people-details"><a href ${saPeopleObj.link}>Learn More</a></li>
     </ul>
     </article>
     `
