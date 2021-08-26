@@ -106,3 +106,19 @@ h3 {
     background-color: #f0f5f9;
     
 }
+.sa-header {
+    
+    text-align: center;
+}
+.sa-cityhead {
+    text-align: center;
+    font-style: italic;
+}
+.sa-landhead {
+    text-align: center;
+    font-style: italic;
+}
+.saCitizens {
+    text-align: center;
+    font-style: italic;
+}

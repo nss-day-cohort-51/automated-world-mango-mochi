@@ -73,8 +73,16 @@ h3 {
     color: white;
     margin-left: auto;
     margin-right: auto;
-    opacity: 90%;
+    opacity: 83%;
     background: #ff8576;
+    height: auto;
+    position: absolute;
+        margin-top: -100px;
+        width: 100%;
+    
+    
+    
+        
   
     
 }
@@ -98,4 +106,35 @@ h3 {
     box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
     transform: translateY(-0.25em);
     color: #000000;
+}
+.image1 {
+    position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  opacity: 75%;
+ 
+  
+  
+
+}
+.image2 {
+    
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        width: 100%;
+    
+        
+   
+    ;
+        
+
+}
+.parent {
+    position: relative;
+  top: 0;
+  left: 0;
+  
 }
