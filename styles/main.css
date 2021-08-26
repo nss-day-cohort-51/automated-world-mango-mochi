@@ -1,9 +1,10 @@
 .logo {
-    height: 300px;
-    width: 300px;
+    height: auto;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: -20px;
 }
 .header-image {
     display: flex;
@@ -82,6 +83,7 @@ color: #001b36;
 .title {
     display: flex;
     justify-content: center;
+    
 }
 h1 {
     font-size: 60px;
