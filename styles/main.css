@@ -66,6 +66,14 @@ font-family: 'Raleway', sans-serif;
     display: flex;
     justify-content: space-evenly;
 }
+
+.country-images{
+
+    height: 400px;
+    width: 100%;
+
+}
+
 .footer {
     display: flex;
     justify-content: center;
