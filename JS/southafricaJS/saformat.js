@@ -1,6 +1,6 @@
 export const saCity = (saCityObj) => {
     return `
-    <article>
+    <article class="border">
     <h3 class="city-name">${saCityObj.cities}</h3>
     <ul>
     <li class="city-details">Population: ${saCityObj.population}</li>
@@ -13,7 +13,7 @@ export const saCity = (saCityObj) => {
 
 export const saLndMrk = (salndMrkObj) => {
     return `
-    <article>
+    <article class="border">
     <h3 class="city-name">${salndMrkObj.name}</h3>
     <ul>
     <li class="landmark-details">Built: ${salndMrkObj.built}</li>
@@ -26,7 +26,7 @@ export const saLndMrk = (salndMrkObj) => {
 
 export const saPeople = (saPeopleObj) => {
     return `
-    <artilce>
+    <article class="border">
     <h3 class="city-name">${saPeopleObj.people}</h3>
     <ul>
     <li class="people-details">Occupation: ${saPeopleObj.occupation}</li>

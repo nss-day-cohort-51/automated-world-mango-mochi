@@ -24,12 +24,12 @@
     background-color: #47c2b1;
     padding-bottom: 50px;
     font-family: 'Open Sans', sans-serif;
-font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 body {
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
-font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 .nav {
     display: flex;
@@ -84,4 +84,18 @@ h3 {
 }
 .index-header {
     padding-top: 25px;
+}
+
+.nav-buttons{
+    background-size: auto;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #F0F5F9;
+    background-size: 50%;
+}
+.nav :hover{
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+    color: #000000;
 }
