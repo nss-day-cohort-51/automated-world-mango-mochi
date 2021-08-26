@@ -40,21 +40,21 @@ const ivoryPeeps = [
     {
         people: "Yaya Toure",
         occupation: "Soccer Player",
-        discription: "very cool guy",
+        fact: "very cool guy",
         link: "https://en.wikipedia.org/wiki/Yaya_Tour%C3%A9"
         
     },
     {
         people: "Didier Drogba",
         occupation: "Soccer Player",
-        discription: "very cool guy",
+        fact: "very cool guy",
         link: "https://en.wikipedia.org/wiki/Didier_Drogba"
         
     },
     {
         people: "ForeHead",
         occupation: "Soccer Player",
-        discription: "very cool guy",
+        fact: "very cool guy",
         link: "https://en.wikipedia.org/wiki/Gervinho"
         
     }
