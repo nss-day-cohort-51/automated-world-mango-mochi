@@ -64,6 +64,7 @@ body {
 font-family: 'Raleway', sans-serif;
 background-color:#c9d6df;
 color: #001b36;
+text-align: center;
 }
 .nav {
     display: flex;
