@@ -1,7 +1,7 @@
 .logo {
 
-    height: 300px;
-    width: 300px;
+    height: auto;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
