@@ -79,12 +79,7 @@ h3 {
     position: absolute;
         margin-top: -100px;
         width: 100%;
-    
-    
-    
-        
-  
-    
+   
 }
 .africa-logo {
     width: 25px;
@@ -115,26 +110,18 @@ h3 {
   height: auto;
   opacity: 75%;
  
-  
-  
-
 }
 .image2 {
     
-        position: absolute;
-        top: 30px;
-        left: 30px;
-        width: 100%;
-    
+position: absolute;
+top: 30px;
+left: 30px;
+width: 100%;
         
-   
-    ;
-        
-
 }
 .parent {
-    position: relative;
-  top: 0;
-  left: 0;
+position: relative;
+top: 0;
+left: 0;
   
 }

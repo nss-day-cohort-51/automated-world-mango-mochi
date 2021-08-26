@@ -14,9 +14,9 @@
 .cards {
     display: flex;
     flex-direction: row;
-background-color: #c9d6df;
-color: #001b36;
-padding-bottom: 3%;
+    background-color: #c9d6df;
+    color: #001b36;
+    padding-bottom: 3%;
     
 }
 
@@ -61,9 +61,9 @@ padding-bottom: 3%;
 body {
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
-font-family: 'Raleway', sans-serif;
-background-color:#c9d6df;
-color: #001b36;
+    font-family: 'Raleway', sans-serif;
+    background-color:#c9d6df;
+    color: #001b36;
 }
 .nav {
     display: flex;
@@ -114,13 +114,13 @@ h3 {
 }
 .sa-cityhead {
     text-align: center;
-    font-style: italic;
+    
 }
 .sa-landhead {
     text-align: center;
-    font-style: italic;
+    
 }
 .saCitizens {
     text-align: center;
-    font-style: italic;
+    
 }
