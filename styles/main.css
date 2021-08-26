@@ -14,9 +14,9 @@
 .cards {
     display: flex;
     flex-direction: row;
-background-color: #c9d6df;
-color: #001b36;
-padding-bottom: 3%;
+    background-color: #c9d6df;
+    color: #001b36;
+    padding-bottom: 3%;
     
 }
 
@@ -115,13 +115,13 @@ h3 {
 }
 .sa-cityhead {
     text-align: center;
-    font-style: italic;
+    
 }
 .sa-landhead {
     text-align: center;
-    font-style: italic;
+    
 }
 .saCitizens {
     text-align: center;
-    font-style: italic;
+    
 }
