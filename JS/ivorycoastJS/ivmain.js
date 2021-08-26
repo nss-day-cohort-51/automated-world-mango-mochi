@@ -1,4 +1,5 @@
-import { ivListLndMrks, ivListCities } from "./ivlist.js";
+import { ivListLndMrks, ivListCities, ivListpeople } from "./ivlist.js";
 
 ivListCities();
 ivListLndMrks();
+ivListpeople();
